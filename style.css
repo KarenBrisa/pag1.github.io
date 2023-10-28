@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: E:\RECUPERADOS 25.09.2023\Pictures\Para Word url(images (2).jpg);
+  }
+  ul li:hover{
+    background-color: #c465d1;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #4e022c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(206, 64, 112);
+    box-shadow: 7px 13px 37px #ca137e;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #3a021c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #fa42b4;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(243, 49, 156);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: rgb(243, 7, 243);
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: rgb(223, 59, 238);
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #b81c5d;
+    border: none;
+    padding: 12px;
+    color: rgb(171, 21, 240);
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  .container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ec90b7;
+    font-family: 'Share Tech', sans-serif;
+    min-width: 1200px;
+    position: relative;
+  }
+  .logo{
+    font-weight: 600;
+    font-size: 3.8rem;
+  }
+  nav{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 6px 20px;
+    font-weight: 500;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  ul li:hover{
+    background-color: #c465d1;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  header{
+   position: absolute;
+   bottom: 30%;
+   padding: 0 50px;
+  }
+  header h1{
+    font-size: 7rem;
+  }
+  header h2{
+    font-size: 4rem;
+  }
+  header p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  header button{
+    padding: 0 5px;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: #40055c;
+    border-radius: 25px;
+    transition: width 0.5s;
+  }
+  button img{
+    display: none;
+  }
+  button:hover img{
+    display: block;
+  }
+  header button:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+  }
+  
+  .container .emp{
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    right: 7%;
+    bottom: 0;
+    z-index: 999;
+  }
+  .container .fondo-emp{
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    right: 4%;
+    bottom: 0;
+  }
+  .icons{
+    position: absolute;
+    bottom: 8%;
+    padding: 0 50px;
+  }
+  .icons i{
+    font-size: 2.5rem;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .icons i:hover{
+    color: #9e4acf;
+    transition: all 0.3s ease 0s;
+  }
+  
+  
